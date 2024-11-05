@@ -22,7 +22,7 @@ services:
       - internalnetwork
   nodeapp:
     container_name: nodeappcontainer
-    image: diagne48/app:latest
+    image: diagne48/nodeapp:v1
     volumes:
       - $HOME/nodeapp:/codeZ
     ports:
